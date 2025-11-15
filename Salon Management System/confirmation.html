@@ -8,18 +8,21 @@
     <link rel="stylesheet" href="css/confirmation.css"> </head>
 <body>
 
-    <header class="navbar">
-        <div class="container">
-            <a href="index.html" class="navbar-brand">Velvet Touch</a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="login.html">Login / Register</a></li>
-                </ul>
-            </nav>
+   <header class="navbar">
+    <div class="container">
+        <div class="navbar-brand-wrapper">
+            <a href="index.html" class="navbar-brand"><img src="assets/images/logo.png" alt="Velvet Touch Logo"></a>
+            <span class="brand-text">Velvet Touch</span>
         </div>
-    </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="login.html">Login / Register</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
     <main>
         <div class="confirmation-container">
@@ -34,7 +37,7 @@
             
             <p class="confirmation-message">
                 Thank you! Your appointment is successfully booked.
-                A confirmation email and SMS have been sent to you. (FR 3.2.7)
+                A confirmation email and SMS have been sent to you.
             </p>
 
             <div class="booking-summary-box">
@@ -71,4 +74,5 @@
     <script src="Js/mock-data.js"></script>
     <script src="Js/confirmation.js"></script>
 </body>
+
 </html>
