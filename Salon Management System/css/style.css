@@ -494,4 +494,19 @@ a {
     height: 50px; /* Adjust this value to make your logo bigger or smaller */
     width: auto;  /* Keeps the original shape */
     display: block; /* Fixes any weird spacing */
+
+}
+.navbar-brand-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Optional: spacing between logo and text */
+}
+
+.navbar-brand-wrapper img {
+    height: 40px; /* Adjust as needed */
+}
+
+.brand-text {
+    font-size: 1.2rem;
+    font-weight: bold;
 }
